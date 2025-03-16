@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Princiya S - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0e1a40;
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            padding: 3rem 0;
+            background: linear-gradient(135deg, #491c1c, #1548af);
+            position: relative;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+            margin: 10px 0 5px;
+        }
+
+        nav {
+            background: #222;
+            text-align: center;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #1e90ff;
+        }
+
+        .section-content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            text-align: center;
+        }
+
+        .download-button {
+            display: inline-block;
+            background: #1e90ff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: background 0.3s;
+        }
+
+        .download-button:hover {
+            background: #0a66c2;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #222;
+            margin-top: 2rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            font-size: 1.2rem;
+            padding: 5px 0;
+        }
+
+        @media (max-width: 600px) {
+            .profile-picture {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\navee\princiya-photo.jpg.jpg"alt="Your Profile Picture" class="profile-picture">
+        <div class="header-content">
+            <h1>Princiya S</h1>
+            <p>Passionate Programmer & Developer</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section-content">
+        <h2>About Me</h2>
+        <p>A dedicated Computer Science student with expertise in Python, Java, C++, and web development. Passionate about AI, problem-solving, and innovative technology.</p>
+    </section>
+
+    <section id="education" class="section-content">
+        <h2>Education</h2>
+        <p>Bharathiar University - BSc Computer Science</p>
+    </section>
+
+    <section id="skills" class="section-content">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>HTML & CSS</li>
+            <li>C & C++</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="section-content">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="#">Portfolio Website</a></li>
+        </ul>
+    </section>
+
+    <section id="resume" class="section-content">
+        <h2>Resume</h2>
+        <a href="C:\Users\navee\Resume.pdf.pdf" download class="download-button">Download CV</a>
+    <footer>
+        <p>&copy; 2025 Princiya S | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
+
